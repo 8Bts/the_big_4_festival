@@ -255,6 +255,15 @@ div { font-family: 'Lato', sans-serif;}
   font-size: 13px;
 }
 
+/* ======================================================== Partner section ======================================================== */
+
+.partner {
+  background-color: var(--primary-color);
+  padding-bottom: 2em;
+}
+
+.partner-img { width: 140px }
+
 @media screen and (min-width: 768px){
 
 /* ====================================================== Main program section ==================================================== */
