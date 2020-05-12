@@ -21,8 +21,11 @@ a:hover {
 
 div { font-family: 'Lato', sans-serif;}
 
+.font-lato { font-family: 'Lato', sans-serif; }
 
-/* ============================================= Nav section ============================================ */
+.color-secondary { color: var(--secondary-color); }
+
+/* ============================================================ Nav section ======================================================= */
 
 .nav-top { background-color: #3e3e3e }
 
@@ -67,7 +70,6 @@ div { font-family: 'Lato', sans-serif;}
 
 .get-ticket-link {
   margin-right: 16.4vw;
-  color: var(--secondary-color);
   padding: 7px 15px;
   white-space: nowrap;
   transition: background-color 0.2s, color 0.4s;
@@ -85,7 +87,7 @@ div { font-family: 'Lato', sans-serif;}
   top: 0;
 }
 
-/* ============================================= Nav section ============================================ */
+/* ====================================================== First Glance section ==================================================== */
 
 .first-glance {
   background: url(/img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
@@ -107,7 +109,6 @@ div { font-family: 'Lato', sans-serif;}
 .fg-content {
   position: relative;
   top: 17vh;
-  color: var(--secondary-color);
   z-index: 1;
 }
 
@@ -148,4 +149,95 @@ div { font-family: 'Lato', sans-serif;}
 .fest-loc {
   font-size: 17px;
   color: var(--primary-color);
+}
+
+/* ====================================================== Main program section ==================================================== */
+
+.main-program {
+  background: url(/img/metal-texture.jpg) center repeat;
+  background-size: 700px;
+}
+
+.mp-header { padding: 2.8em 0; }
+
+.mp-h1 {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+.mp-hr {
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: 60px;
+  border-top: 1px solid var(--secondary-color);
+}
+
+.program-features {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pf-card {
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  margin: 0.3em 0.8em;
+  background-color: rgba(133, 133, 133, 0.4);
+}
+
+.pf-card-h1 {
+  font-size: 1.3rem;
+  margin: 0 0.9em;
+  font-weight: 600;
+}
+
+.pf-card-p {
+  margin-bottom: 0;
+  color: var(--light-color);
+  font-weight: 500;
+  font-size: 12px;
+  font-family: 'cocogooselight';
+}
+
+.mp-red-link {
+  display: inline-block;
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 1.5em 2.5em;
+  margin: 2.5em 0;
+  text-align: center;
+  transition: color 0.4s, background-color 0.2s;
+  border: 2px solid var(--secondary-color);
+}
+
+@media screen and (min-width: 768px){
+
+/* ====================================================== Main program section ==================================================== */
+
+  .program-features {
+    flex-direction: row;
+  }
+
+  .pf-card {
+    flex-flow: column nowrap;
+    justify-content: start;
+    width: 170px;
+    margin: 0 0.2em;
+  }
+
+  .pf-card-h1 { margin: 0.6em 0 0.5em; }
+
+  .pf-card-p { text-align: center; }
+
+  .mp-bottom-link {
+    color: white;
+    padding: 3.5em 0 4em;
+    margin: 0;
+    text-decoration: underline;
+  }
+
 }
