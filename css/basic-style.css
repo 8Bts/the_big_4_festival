@@ -39,8 +39,9 @@ div { font-family: 'Lato', sans-serif;}
 
 .logo-link {
   display: inline-block;
+  flex: none;
   width: 75px;
-  height: 100%;
+  height: 80px;
   margin: 10px 0;
   margin-left: 17vw;
 }
@@ -52,23 +53,99 @@ div { font-family: 'Lato', sans-serif;}
 
 .nav-bottom-list {
   margin: 0 auto;
+  white-space: nowrap;
 }
 
 .nav-bottom-list li {
   display: inline-block;
-  margin: 0 2.6em;
+  margin: 0 3vw;
   font-weight: 600;
   color: gray;
 }
+
+.nav-bottom-list li:hover { color: var(--secondary-color); }
 
 .get-ticket-link {
   margin-right: 16.4vw;
   color: var(--secondary-color);
   padding: 7px 15px;
+  white-space: nowrap;
+  transition: background-color 0.2s, color 0.4s;
   border: 3px solid var(--secondary-color);
 }
 
 .get-ticket-link:hover {
   background-color: var(--secondary-color);
   color: white;
+}
+
+.mobile-menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+/* ============================================= Nav section ============================================ */
+
+.first-glance {
+  background: url(/img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
+  background-size: cover;
+  padding-bottom: 30vh;
+  z-index: -1;
+  position: relative;
+}
+
+.layer-white {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+}
+
+.fg-content {
+  position: relative;
+  top: 17vh;
+  color: var(--secondary-color);
+  z-index: 1;
+}
+
+
+.fg-content .witness-p { font-size: 35px; }
+
+.fg-content h1 {
+  display: inline-block;
+  font-family: 'cocogooseregular', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  background: url(/img/etienne-martin.jpg) center no-repeat;
+  background-size: 900px;
+  color: transparent;
+  background-clip: text;
+}
+
+.time-span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.festival-des {
+  outline: 3px solid white;
+  background-color: rgba(225, 225, 225, 0.7);
+  font-size: 14px;
+  color: var(--primary-color);
+  margin: 0 15vw;
+  padding: 1em;
+}
+
+.fest-date {
+  font-size: 2rem;
+  margin: 0.5em 0 0.3em;
+  color: var(--primary-color);
+}
+
+.fest-loc {
+  font-size: 17px;
+  color: var(--primary-color);
 }
