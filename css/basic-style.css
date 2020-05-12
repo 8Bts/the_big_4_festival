@@ -23,7 +23,9 @@ div { font-family: 'Lato', sans-serif;}
 
 .font-lato { font-family: 'Lato', sans-serif; }
 
-.color-secondary { color: var(--secondary-color); }
+.color-primary { color: var(--primary-color) !important; }
+
+.color-secondary { color: var(--secondary-color) !important; }
 
 /* ============================================================ Nav section ======================================================= */
 
@@ -187,6 +189,11 @@ div { font-family: 'Lato', sans-serif;}
   padding: 1em;
   margin: 0.3em 0.8em;
   background-color: rgba(133, 133, 133, 0.4);
+  transition: outline 0.1s;
+}
+
+.pf-card:hover {
+  outline: 3px outset white;
 }
 
 .pf-card-h1 {
@@ -209,9 +216,43 @@ div { font-family: 'Lato', sans-serif;}
   background-color: var(--secondary-color);
   padding: 1.5em 2.5em;
   margin: 2.5em 0;
+  font-weight: 600;
   text-align: center;
   transition: color 0.4s, background-color 0.2s;
-  border: 2px solid var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+}
+
+.mp-red-link:hover {
+  color: var(--secondary-color);
+  background-color: white;
+}
+
+/* ========================================================= Bands section ========================================================= */
+
+.band-img {
+  flex: none;
+  width: 280px;
+  transition: transform 1s;
+}
+
+.band-img:hover {
+  transform: scale(1.3) translateX(-10%);
+}
+
+.band-des {
+  padding-top: 1.2em;
+  padding-left: 1.5em;
+}
+
+.band-name { font-size: 20px; }
+
+.band-genre {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.band-about {
+  font-size: 13px;
 }
 
 @media screen and (min-width: 768px){
