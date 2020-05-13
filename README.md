@@ -1,19 +1,21 @@
-# Responsive Web Design
+# Metal concert booking page
 
-This project is a clone of the home page of <a href="https://www.newsweek.com/">newseek.com</a>: 
+This project is about using ready web design by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and create very own web application by personalizing it.
+The original page was about the conference. The contents and backgrounds were changed, added a few images.
+Consequently, the concept of the pages transformed into a ticket booking page for metal concerts.
 
 ## Built With
 
 - HTML,
 - CSS,
 - Bootsrap 4,
-- JQuery 3.4.1
+- pixlr.com Image editor
 - VS Code
 - Firefox Developer Edition
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/8Bts/newsweek-clone/57013352b3e49f8b081e10849b97377fb45616ea/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/8Bts/the_big_4_festival/cc3b2e891382558905350800dff39221125a803e/index.html" target="_blank">Live version</a>
 
 ## Author
 
@@ -28,7 +30,7 @@ This project is a clone of the home page of <a href="https://www.newsweek.com/">
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/8Bts/newsweek-clone/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/8Bts/the_big_4_festival/issues" target="_blank">issues page</a>.
 
 ## Show your support
 
@@ -40,12 +42,10 @@ Give a ⭐️ if you like this project!
 - <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
 - <a href="https://css-tricks.com/" target="_blank">CSS-TRICKS</a>
+- [Cindy Shin in behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
 ## Desktop
-![screenshot](https://github.com/8Bts/newsweek-clone/blob/home-page/screenshots/destkop.png)
-
-## Tablet
-[screenshot of tablet version](https://github.com/8Bts/newsweek-clone/blob/home-page/screenshots/tablet.png)
+![screenshot](https://github.com/8Bts/the_big_4_festival/blob/personalised_version/screenshots/destkop.png)
 
 ## Mobile
-[screenshot of mobile version](https://github.com/8Bts/newsweek-clone/blob/home-page/screenshots/mobile.png)
+[screenshot of mobile version](https://github.com/8Bts/the_big_4_festival/blob/personalised_version/screenshots/mobile.png)
