@@ -8,7 +8,9 @@
 
 html { box-sizing: border-box; }
 
-*, *:before, *:after { 
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -19,7 +21,7 @@ a:hover {
   text-decoration: none;
 }
 
-div { font-family: 'Lato', sans-serif;}
+div { font-family: 'Lato', sans-serif; }
 
 .font-lato { font-family: 'Lato', sans-serif; }
 
@@ -33,7 +35,7 @@ div { font-family: 'Lato', sans-serif;}
 
 /* ============================================================ Nav section ======================================================= */
 
-.nav-top { background-color: #3e3e3e }
+.nav-top { background-color: #3e3e3e; }
 
 .nav-top-content {
   font-size: 14px;
@@ -100,7 +102,6 @@ div { font-family: 'Lato', sans-serif;}
   background: url(../img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
   background-size: cover;
   padding-bottom: 30vh;
-  z-index: -1;
   position: relative;
 }
 
@@ -118,7 +119,6 @@ div { font-family: 'Lato', sans-serif;}
   top: 17vh;
   z-index: 1;
 }
-
 
 .fg-content .witness-p { font-size: 35px; }
 
@@ -171,9 +171,13 @@ div { font-family: 'Lato', sans-serif;}
 /* ====================================================== Past Festivals section ==================================================== */
 
 .pf-img-link {
-  border: 1px solid gold;
   display: inline-block;
   position: relative;
+  transition: filter 0.3s;
+}
+
+.pf-img-link:hover {
+  filter: opacity(0.9);
 }
 
 .orange-layer {
@@ -197,10 +201,23 @@ div { font-family: 'Lato', sans-serif;}
 
 .pf-time { font-size: 3rem; }
 
-.pf-p { 
+.pf-p {
   font-size: 1.5rem;
   white-space: nowrap;
 }
+
+/* ====================================================== Select Ticket section ==================================================== */
+
+.td-top {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.td-bottom {
+  font-size: 14px;
+}
+
+.ticket-img { width: 200px; }
 
 /* ====================================================== Main program section ==================================================== */
 
@@ -261,7 +278,7 @@ div { font-family: 'Lato', sans-serif;}
   font-weight: 500;
   font-size: 12px;
   text-align: left;
-  font-family: 'cocogooselight';
+  font-family: 'cocogooselight', sans-serif;
 }
 
 .mp-red-link {
@@ -313,17 +330,16 @@ div { font-family: 'Lato', sans-serif;}
 
 .partner-link { margin: 1em 2em; }
 
-.partner-img { width: 100px }
+.partner-img { width: 100px; }
 
 /* ========================================================= Footer section ======================================================== */
 
- footer { background-color: var(--primary-color); }
+footer { background-color: var(--primary-color); }
 
- .light-footer { background-color: var(--light-color); }
+.light-footer { background-color: var(--light-color); }
 
-@media screen and (min-width: 768px){
-
-/* ====================================================== Main program section ==================================================== */
+@media screen and (min-width: 768px) {
+  /* ====================================================== Main program section ==================================================== */
 
   .program-features {
     flex-direction: row;
@@ -343,12 +359,12 @@ div { font-family: 'Lato', sans-serif;}
     width: auto;
     margin: 0.6em 0 0.5em;
     padding: 0;
-   }
+  }
 
   .pf-card-p {
     width: auto;
     text-align: center;
-   }
+  }
 
   .mp-bottom-link {
     color: white;
@@ -362,5 +378,4 @@ div { font-family: 'Lato', sans-serif;}
   .band-img { width: 180px; }
 
   .band-img:hover { transform: scale(1.6) translateX(-14%); }
-
 }
