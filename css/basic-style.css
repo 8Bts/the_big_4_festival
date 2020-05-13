@@ -125,6 +125,7 @@ div { font-family: 'Lato', sans-serif;}
   background: url(../img/etienne-martin.jpg) center no-repeat;
   background-size: 900px;
   color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
 }
 
