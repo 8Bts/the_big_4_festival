@@ -42,6 +42,7 @@ div { font-family: 'Lato', sans-serif; }
   color: #f6f6f6;
   padding: 0.35em 0;
   padding-right: 16%;
+  white-space: nowrap;
 }
 
 .nav-top-content * {
