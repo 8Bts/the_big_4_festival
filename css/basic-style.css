@@ -92,7 +92,7 @@ div { font-family: 'Lato', sans-serif;}
 /* ====================================================== First Glance section ==================================================== */
 
 .first-glance {
-  background: url(./img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
+  background: url(../img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
   background-size: cover;
   padding-bottom: 30vh;
   z-index: -1;
@@ -122,7 +122,7 @@ div { font-family: 'Lato', sans-serif;}
   font-family: 'cocogooseregular', sans-serif;
   font-size: 4rem;
   text-transform: uppercase;
-  background: url(./img/etienne-martin.jpg) center no-repeat;
+  background: url(../img/etienne-martin.jpg) center no-repeat;
   background-size: 900px;
   color: transparent;
   background-clip: text;
@@ -156,7 +156,7 @@ div { font-family: 'Lato', sans-serif;}
 /* ====================================================== Main program section ==================================================== */
 
 .main-program {
-  background: url(./img/metal-texture.jpg) center repeat;
+  background: url(../img/metal-texture.jpg) center repeat;
   background-size: 700px;
 }
 
