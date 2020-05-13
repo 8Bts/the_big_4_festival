@@ -45,7 +45,7 @@ Give a ⭐️ if you like this project!
 - [Cindy Shin in behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
 ## Desktop
-![screenshot](https://github.com/8Bts/the_big_4_festival/blob/personalised_version/screenshots/destkop.png)
+![screenshot](https://github.com/8Bts/the_big_4_festival/blob/personalised_version/screenshots/desktop.png)
 
 ## Mobile
 [screenshot of mobile version](https://github.com/8Bts/the_big_4_festival/blob/personalised_version/screenshots/mobile.png)
