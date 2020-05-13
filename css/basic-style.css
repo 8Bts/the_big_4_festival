@@ -27,6 +27,10 @@ div { font-family: 'Lato', sans-serif;}
 
 .color-secondary { color: var(--secondary-color) !important; }
 
+.color-light { color: rgba(103, 103, 103, 1) !important; }
+
+.white-img { filter: grayscale(100%) invert(1) !important; }
+
 /* ============================================================ Nav section ======================================================= */
 
 .nav-top { background-color: #3e3e3e }
@@ -87,6 +91,7 @@ div { font-family: 'Lato', sans-serif;}
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 9;
 }
 
 /* ====================================================== First Glance section ==================================================== */
@@ -152,6 +157,49 @@ div { font-family: 'Lato', sans-serif;}
 .fest-loc {
   font-size: 17px;
   color: var(--primary-color);
+}
+
+.email-link {
+  text-decoration: underline;
+  position: relative;
+  top: 0;
+  z-index: 5;
+}
+
+.services-list { list-style: disc; }
+
+/* ====================================================== Past Festivals section ==================================================== */
+
+.pf-img-link {
+  border: 1px solid gold;
+  display: inline-block;
+  position: relative;
+}
+
+.orange-layer {
+  position: absolute;
+  top: 0;
+  background-color: rgba(246, 37, 14, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.pf-img { width: 100%; }
+
+.pf-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+}
+
+.pf-time { font-size: 3rem; }
+
+.pf-p { 
+  font-size: 1.5rem;
+  white-space: nowrap;
 }
 
 /* ====================================================== Main program section ==================================================== */
@@ -266,6 +314,12 @@ div { font-family: 'Lato', sans-serif;}
 .partner-link { margin: 1em 2em; }
 
 .partner-img { width: 100px }
+
+/* ========================================================= Footer section ======================================================== */
+
+ footer { background-color: var(--primary-color); }
+
+ .light-footer { background-color: var(--light-color); }
 
 @media screen and (min-width: 768px){
 
