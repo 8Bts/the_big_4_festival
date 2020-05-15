@@ -42,7 +42,6 @@ div { font-family: 'Lato', sans-serif; }
   color: #f6f6f6;
   padding: 0.35em 0;
   padding-right: 16%;
-  white-space: nowrap;
 }
 
 .nav-top-content * {
@@ -50,7 +49,6 @@ div { font-family: 'Lato', sans-serif; }
 }
 
 .logo-link {
-  display: inline-block;
   flex: none;
   width: 75px;
   height: 80px;
@@ -58,15 +56,7 @@ div { font-family: 'Lato', sans-serif; }
   margin-left: 17vw;
 }
 
-.logo-link img {
-  display: block;
-  width: 100%;
-}
-
-.nav-bottom-list {
-  margin: 0 auto;
-  white-space: nowrap;
-}
+.nav-bottom-list { margin: 0 auto; }
 
 .nav-bottom-list li {
   display: inline-block;
@@ -80,7 +70,6 @@ div { font-family: 'Lato', sans-serif; }
 .get-ticket-link {
   margin-right: 16.4vw;
   padding: 7px 15px;
-  white-space: nowrap;
   transition: background-color 0.2s, color 0.4s;
   border: 3px solid var(--secondary-color);
 }
@@ -91,8 +80,6 @@ div { font-family: 'Lato', sans-serif; }
 }
 
 .mobile-menu {
-  width: 100%;
-  position: fixed;
   top: 0;
   z-index: 9;
 }
@@ -103,27 +90,22 @@ div { font-family: 'Lato', sans-serif; }
   background: url(../img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
   background-size: cover;
   padding-bottom: 30vh;
-  position: relative;
 }
 
 .layer-white {
-  position: absolute;
   background-color: rgba(255, 255, 255, 0.7);
-  height: 100%;
-  width: 100%;
   top: 0;
   z-index: 0;
 }
 
 .fg-content {
-  position: relative;
   top: 17vh;
   z-index: 1;
 }
 
 .fg-content .witness-p { font-size: 35px; }
 
-.fg-content h1 {
+.fg-content .metal-h1 {
   display: inline-block;
   font-family: 'cocogooseregular', sans-serif;
   font-size: 4rem;
@@ -162,7 +144,6 @@ div { font-family: 'Lato', sans-serif; }
 
 .email-link {
   text-decoration: underline;
-  position: relative;
   top: 0;
   z-index: 5;
 }
@@ -218,7 +199,12 @@ div { font-family: 'Lato', sans-serif; }
   font-size: 14px;
 }
 
-.ticket-img { width: 200px; }
+.ticket-img {
+  flex: none;
+  width: 200px;
+}
+
+.ticket-card-des { width: 60%; }
 
 /* ====================================================== Main program section ==================================================== */
 

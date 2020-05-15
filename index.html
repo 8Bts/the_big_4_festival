@@ -18,7 +18,7 @@
 <body>
   <nav>
     <div class="nav-top d-none d-md-flex justify-content-end">
-      <div class="nav-top-content">
+      <div class="nav-top-content text-nowrap">
         <i class="fab fa-facebook-f fa-lg"></i>
         <i class="fab fa-twitter fa-lg"></i>
         <a href="#">English</a>
@@ -27,10 +27,10 @@
       </div>
     </div>
     <div class="nav-bottom d-none d-md-flex align-items-center">
-      <a class="logo-link" href="./index.html">
-        <img src="./img/black-arias-logo.png" alt="black-arias-logo">
+      <a class="logo-link d-inline-block" href="./index.html">
+        <img class="d-block w-100" src="./img/black-arias-logo.png" alt="black-arias-logo">
       </a>
-      <ul class="nav-bottom-list">
+      <ul class="nav-bottom-list text-nowrap">
         <li>
           <a href="./about.html">About</a>
         </li>
@@ -44,9 +44,9 @@
           <a href="#s">Sponsor</a>
         </li>
       </ul>
-      <a class="get-ticket-link color-secondary" href="./tickets.html">Get ticket</a>
+      <a class="get-ticket-link text-nowrap color-secondary" href="./tickets.html">Get ticket</a>
     </div>
-    <div class="mobile-menu d-md-none">
+    <div class="mobile-menu w-100 position-fixed d-md-none">
       <button class="nav-menu-btn  bg-transparent border-0 mt-3 ml-3">
         <i class="fas fa-bars fa-2x"></i>
       </button>
@@ -54,11 +54,11 @@
   </nav>
   <main>
 
-    <div class="first-glance">
-      <div class="layer-white"></div>
-      <div class="fg-content text-center">
+    <div class="first-glance position-relative">
+      <div class="layer-white position-absolute w-100 h-100"></div>
+      <div class="fg-content text-center position-relative">
         <p class="witness-p color-secondary">"Witness History!"</p>
-        <h1>The Big Four Festival <br><span class="time-span">2020</span></h1>
+        <h1 class="metal-h1" >The Big Four Festival <br><span class="time-span">2020</span></h1>
         <p class="festival-des">
           The tickets are going fast! Don't miss the chance of your life to meet the 4 legendary thrash metal bands appearing on the same stage.
         </p>
@@ -69,32 +69,32 @@
 
     <div class="main-program">
       <header class="mp-header">
-        <h1 class="mp-h1 text-center">Main Program</h1>
+        <h2 class="mp-h1 text-center">Main Program</h2>
         <hr class="mp-hr">
       </header>
       <div class="program-features">
 
         <div class="pf-card text-white d-flex">
           <i class="fas fa-music fa-3x"></i>
-          <h2 class="pf-card-h1 color-secondary">Live music</h2>
+          <h2 class="pf-card-h2 color-secondary">Live music</h2>
           <p class="pf-card-p">An outstanding live performance that will hold you full of energy all night long.</p>
         </div>
         
         <div class="pf-card text-white d-flex">
           <i class="fas fa-grin-stars fa-3x"></i>
-          <h2 class="pf-card-h1 color-secondary">Clear View</h2>
+          <h2 class="pf-card-h2 color-secondary">Clear View</h2>
           <p class="pf-card-p">The concerts organized in the stadium have reasonable preferences for a clear stage view.</p>
         </div>
 
         <div class="pf-card text-white d-flex">
           <i class="fas fa-store fa-3x"></i>
-          <h2 class="pf-card-h1 color-secondary">Merch</h2>
+          <h2 class="pf-card-h2 color-secondary">Merch</h2>
           <p class="pf-card-p">Get the various merchandises of your favorite band, including albums, t-shirts, accessories, and many more.</p>
         </div>
 
         <div class="pf-card text-white d-flex">
           <i class="fas fa-hand-holding-usd fa-3x"></i>
-          <h2 class="pf-card-h1 color-secondary">Voucher</h2>
+          <h2 class="pf-card-h2 color-secondary">Voucher</h2>
           <p class="pf-card-p">Buy a ticket now, and you will get <span class="font-lato">20%</span> off for the next concert.</p>
         </div>
 
@@ -110,7 +110,7 @@
     <div class="bands">
       <div class="container">
         <header class="mp-header">
-          <h1 class="mp-h1 text-center color-primary">Bands</h1>
+          <h2 class="mp-h1 text-center color-primary">Bands</h2>
           <hr class="mp-hr">
         </header>
         <div class="row">
@@ -160,7 +160,7 @@
 
     <div id="s" class="partner">
       <header class="mp-header">
-        <h1 class="mp-h1 text-center">Partner</h1>
+        <h2 class="mp-h1 text-center">Partner</h2>
         <hr class="mp-hr">
       </header>
       <div class="d-flex flex-wrap justify-content-center">
@@ -185,8 +185,8 @@
   </main>
   <footer class="light-footer">
     <div class="container p-4 d-flex align-items-center justify-content-between">
-      <a class="logo-link" href="#">
-        <img src="./img/black-arias-logo.png" alt="black-arias-logo">
+      <a class="logo-link d-inline-block" href="#">
+        <img class="w-100 d-block" src="./img/black-arias-logo.png" alt="black-arias-logo">
       </a>
       <p class="color-primary mx-5">
         2020 Black Arias Booking. Some rights reserved.
