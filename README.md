@@ -15,7 +15,7 @@ Consequently, the concept of the pages transformed into a ticket booking page fo
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/8Bts/the_big_4_festival/7f0a8a44a6e5f5a5775b9ab280d2d0e64c7a07e4/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/8Bts/the_big_4_festival/67cad6e685a544a86018e9c757ae39deaed150bc/tickets.html" target="_blank">Live version</a>
 
 ## Author
 
