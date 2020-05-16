@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --primary-color: #272a31;
+  --secondary-color: #ec5242;
+  --light-color: #d3d3d3;
+}
+
+html { box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a { color: inherit; }
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+div { font-family: 'Lato', sans-serif; }
+
+.font-lato { font-family: 'Lato', sans-serif; }
+
+.color-primary { color: var(--primary-color) !important; }
+
+.color-secondary { color: var(--secondary-color) !important; }
+
+.color-light { color: rgba(103, 103, 103, 1) !important; }
+
+.white-img { filter: grayscale(100%) invert(1) !important; }
+
+/* ============================================================ Nav section ======================================================= */
+
+.nav-top { background-color: #3e3e3e; }
+
+.nav-top-content {
+  font-size: 14px;
+  color: #f6f6f6;
+  padding: 0.35em 0;
+  padding-right: 16%;
+}
+
+.nav-top-content * {
+  margin: 0 0.5em;
+}
+
+.logo-link {
+  flex: none;
+  width: 75px;
+  height: 80px;
+  margin: 10px 0;
+  margin-left: 17vw;
+}
+
+.nav-bottom-list { margin: 0 auto; }
+
+.nav-bottom-list li {
+  display: inline-block;
+  margin: 0 3vw;
+  font-weight: 600;
+  color: gray;
+}
+
+.nav-bottom-list li:hover { color: var(--secondary-color); }
+
+.get-ticket-link {
+  margin-right: 16.4vw;
+  padding: 7px 15px;
+  transition: background-color 0.2s, color 0.4s;
+  border: 3px solid var(--secondary-color);
+}
+
+.get-ticket-link:hover {
+  background-color: var(--secondary-color);
+  color: white !important;
+}
+
+.mobile-menu {
+  top: 0;
+  z-index: 9;
+}
+
+/* ====================================================== First Glance section ==================================================== */
+
+.first-glance {
+  background: url(../img/Coachella-Valley-Music.jpg) bottom no-repeat fixed;
+  background-size: cover;
+  padding-bottom: 30vh;
+}
+
+.layer-white {
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 0;
+  z-index: 0;
+}
+
+.fg-content {
+  top: 17vh;
+  z-index: 1;
+}
+
+.fg-content .witness-p { font-size: 35px; }
+
+.fg-content .metal-h1 {
+  display: inline-block;
+  font-family: 'cocogooseregular', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  background: url(../img/etienne-martin.jpg) center no-repeat;
+  background-size: 900px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.time-span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.festival-des {
+  outline: 3px solid white;
+  background-color: rgba(225, 225, 225, 0.7);
+  font-size: 14px;
+  color: var(--primary-color);
+  margin: 0 15vw;
+  padding: 1em;
+}
+
+.fest-date {
+  font-size: 2rem;
+  margin: 0.5em 0 0.3em;
+  color: var(--primary-color);
+}
+
+.fest-loc {
+  font-size: 17px;
+  color: var(--primary-color);
+}
+
+.email-link {
+  text-decoration: underline;
+  top: 0;
+  z-index: 5;
+}
+
+.services-list { list-style: disc; }
+
+/* ====================================================== Past Festivals section ==================================================== */
+
+.pf-img-link {
+  display: inline-block;
+  position: relative;
+  transition: filter 0.3s;
+}
+
+.pf-img-link:hover {
+  filter: opacity(0.9);
+}
+
+.orange-layer {
+  position: absolute;
+  top: 0;
+  background-color: rgba(246, 37, 14, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.pf-img { width: 100%; }
+
+.pf-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+}
+
+.pf-time { font-size: 3rem; }
+
+.pf-p {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+/* ====================================================== Select Ticket section ==================================================== */
+
+.td-top {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.td-bottom {
+  font-size: 14px;
+}
+
+.ticket-img {
+  flex: none;
+  width: 200px;
+}
+
+.ticket-card-des { width: 60%; }
+
+/* ====================================================== Main program section ==================================================== */
+
+.main-program {
+  background: url(../img/metal-texture.jpg) center repeat;
+  background-size: 700px;
+}
+
+.mp-header { padding: 2.8em 0; }
+
+.mp-h1 {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+.mp-hr {
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: 60px;
+  border-top: 1px solid var(--secondary-color);
+}
+
+.program-features {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pf-card {
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1em;
+  margin: 0.3em 0.8em;
+  background-color: rgba(133, 133, 133, 0.4);
+  transition: outline 0.1s;
+}
+
+.pf-card:hover {
+  outline: 3px outset white;
+}
+
+.program-features .fas { width: 16%; }
+
+.pf-card-h1 {
+  width: 30%;
+  padding: 0 1em;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.pf-card-p {
+  width: 54%;
+  margin-bottom: 0;
+  color: var(--light-color);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  font-family: 'cocogooselight', sans-serif;
+}
+
+.mp-red-link {
+  display: inline-block;
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 1.5em 2.5em;
+  margin: 2.5em 0;
+  font-weight: 600;
+  text-align: center;
+  transition: color 0.4s, background-color 0.2s;
+  border: 3px solid var(--secondary-color);
+}
+
+.mp-red-link:hover {
+  color: var(--secondary-color);
+  background-color: white;
+}
+
+/* ========================================================= Bands section ========================================================= */
+
+.band-img {
+  flex: none;
+  width: 180px;
+  transition: transform 1s;
+}
+
+.band-des {
+  padding-left: 1.5em;
+}
+
+.band-name { font-size: 20px; }
+
+.band-genre {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.band-about {
+  font-size: 13px;
+}
+
+/* ======================================================== Partner section ======================================================== */
+
+.partner {
+  background-color: var(--primary-color);
+  padding-bottom: 2em;
+}
+
+.partner-link { margin: 1em 2em; }
+
+.partner-img { width: 100px; }
+
+/* ========================================================= Footer section ======================================================== */
+
+footer { background-color: var(--primary-color); }
+
+.light-footer { background-color: var(--light-color); }
+
+@media screen and (min-width: 768px) {
+  /* ====================================================== Main program section ==================================================== */
+
+  .program-features {
+    flex-direction: row;
+  }
+
+  .pf-card {
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    width: 270px;
+    margin: 0 0.2em;
+  }
+
+  .pf-card .fas { width: auto; }
+
+  .pf-card-h1 {
+    width: auto;
+    margin: 0.6em 0 0.5em;
+    padding: 0;
+  }
+
+  .pf-card-p {
+    width: auto;
+    text-align: center;
+  }
+
+  .mp-bottom-link {
+    color: white;
+    padding: 3.5em 0 4em;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  /* ========================================================= Bands section ========================================================= */
+
+  .band-img { width: 180px; }
+
+  .band-img:hover { transform: scale(1.6) translateX(-14%); }
+}
