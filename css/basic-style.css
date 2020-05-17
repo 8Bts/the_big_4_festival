@@ -249,12 +249,15 @@ div { font-family: 'Lato', sans-serif; }
   outline: 3px outset white;
 }
 
-.program-features .fas { width: 16%; }
+.program-features .fas {
+  font-size: 2rem;
+  width: 16%;
+}
 
-.pf-card-h1 {
+.pf-card-h2 {
   width: 30%;
   padding: 0 1em;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -262,6 +265,7 @@ div { font-family: 'Lato', sans-serif; }
   width: 54%;
   margin-bottom: 0;
   color: var(--light-color);
+  padding-left: 1em;
   font-weight: 500;
   font-size: 12px;
   text-align: left;
@@ -340,17 +344,22 @@ footer { background-color: var(--primary-color); }
     margin: 0 0.2em;
   }
 
-  .pf-card .fas { width: auto; }
+  .pf-card .fas {
+    font-size: 3rem;
+    width: auto;
+  }
 
-  .pf-card-h1 {
+  .pf-card-h2 {
     width: auto;
     margin: 0.6em 0 0.5em;
+    font-size: 1.3rem;
     padding: 0;
   }
 
   .pf-card-p {
     width: auto;
     text-align: center;
+    padding: 0;
   }
 
   .mp-bottom-link {
