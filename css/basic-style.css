@@ -251,7 +251,8 @@ div { font-family: 'Lato', sans-serif; }
 
 .program-features .fas {
   font-size: 2rem;
-  width: 16%; }
+  width: 16%;
+ }
 
 .pf-card-h2 {
   width: 30%;
@@ -345,7 +346,8 @@ footer { background-color: var(--primary-color); }
 
   .pf-card .fas { 
     font-size: 3rem;
-    width: auto; }
+    width: auto;
+  }
 
   .pf-card-h2 {
     width: auto;
